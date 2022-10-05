@@ -61,7 +61,7 @@ const App = () => {
             <Navbar />
           </div>
 
-          <div>
+          <div className="border min-h-screen">
             <Routes>
               {/* Dashboard */}
               <Route path="/" element={<Ecommerce />} />
